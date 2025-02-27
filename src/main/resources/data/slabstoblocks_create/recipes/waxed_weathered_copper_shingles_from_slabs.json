@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "group": "create:waxed_weathered_copper_shingles", "pattern": ["#", "#"], "key": {"#": {"item": "create:waxed_weathered_copper_shingle_slab"}}, "result": {"item": "create:waxed_weathered_copper_shingles"}}

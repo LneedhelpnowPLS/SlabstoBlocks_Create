@@ -1,4 +1,4 @@
-package net.lneedhelpnowpls.slabstoblocks_bop;
+package net.lneedhelpnowpls.slabstoblocks_create;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -12,12 +12,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(SlabsToBlocks_BOP.MOD_ID)
-public class SlabsToBlocks_BOP {
-    public static final String MOD_ID = "slabstoblocks_bop";
+@Mod(SlabsToBlocks_Create.MOD_ID)
+public class SlabsToBlocks_Create {
+    public static final String MOD_ID = "slabstoblocks_create";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public SlabsToBlocks_BOP() {
+    public SlabsToBlocks_Create() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
