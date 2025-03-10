@@ -1,15 +1,15 @@
 modLoader="javafml"
-loaderVersion="[43,)" This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[43,)"
 license="MIT License"
 [[mods]]
 modId="slabstoblocks_create"
 version="${file.jarVersion}"
 displayName="Slabs to Blocks: Create"
-logoFile="examplemod.png" 
+logoFile="SlabstoBlocks_Create_Icon.png"
 credits="Idea for this mod was inspired from the original Slabs to Blocks by Mars" 
 authors="LneedhelpnowPLS"
 description='''
-Adds crafting recipes for making Creates's copper slabs into their block variants.
+Adds crafting recipes for making Create's copper slabs into their block variants.
 '''
 [[dependencies.slabstoblocks_create]] 
 modId="forge"
